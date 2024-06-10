@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>JavaScript Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Syntax_and_Operators">Syntax and Operators</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Functions">Functions</a>
+        <a class="nav-link" href="#Objects_and_Arrays">Objects and Arrays</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>JavaScript is a versatile programming language that is used to create dynamic and interactive content on the web. It is an essential part of modern web development.</p>
+            <p>JavaScript was initially created to "make web pages alive". The programs in this language are called scripts. They can be written right in a web page's HTML and run automatically as the page loads.</p>
+            <p>Scripts are provided and executed as plain text. They don't need special preparation or compilation to run.</p>
+            <p>In this documentation, we will cover the basics of JavaScript, its syntax, and its key features.</p>
+        </section>
+        <section class="main-section" id="Syntax_and_Operators">
+            <header>Syntax and Operators</header>
+            <p>JavaScript syntax is the set of rules that define a correctly structured JavaScript program. It includes:</p>
+            <ul>
+                <li>Variables and Constants</li>
+                <li>Operators</li>
+                <li>Control Structures</li>
+                <li>Functions</li>
+                <li>Comments</li>
+            </ul>
+            <p>JavaScript uses the following types of operators:</p>
+            <ul>
+                <li>Arithmetic Operators: +, -, *, /, %</li>
+                <li>Comparison Operators: ==, !=, ===, !==, >, <, >=, <=</li>
+                <li>Logical Operators: &&, ||, !</li>
+            </ul>
+            <p>Here is an example of an arithmetic operation:</p>
+            <code>let sum = 10 + 5; // 15</code>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <p>Variables in JavaScript are used to store data values. You can declare a variable using the <code>var</code>, <code>let</code>, or <code>const</code> keywords.</p>
+            <p>For example:</p>
+            <code>let message = "Hello, World!";</code>
+            <p>The <code>let</code> keyword is used to declare variables that can be reassigned. The <code>const</code> keyword is used to declare variables that are read-only.</p>
+            <p>Here is an example:</p>
+            <code>const pi = 3.14;</code>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <p>Functions are reusable blocks of code that perform a specific task. They are defined using the <code>function</code> keyword.</p>
+            <p>For example:</p>
+            <code>function greet(name) {<br>&nbsp;&nbsp;return "Hello, " + name + "!";<br>}</code>
+            <p>Functions can take parameters and return values.</p>
+            <p>Here is how you can call the <code>greet</code> function:</p>
+            <code>let message = greet("Alice"); // "Hello, Alice!"</code>
+        </section>
+        <section class="main-section" id="Objects_and_Arrays">
+            <header>Objects and Arrays</header>
+            <p>Objects and Arrays are the two most important data types in JavaScript. Objects are used to store collections of data and more complex entities.</p>
+            <p>For example:</p>
+            <code>let person = {<br>&nbsp;&nbsp;firstName: "John",<br>&nbsp;&nbsp;lastName: "Doe"<br>};</code>
+            <p>Arrays are used to store multiple values in a single variable.</p>
+            <p>For example:</p>
+            <code>let fruits = ["Apple", "Banana", "Cherry"];</code>
+        </section>
+    </main>
+</body>
+</html>
